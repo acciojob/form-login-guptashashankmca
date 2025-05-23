@@ -4,8 +4,7 @@
 // 	const secondName = document.querySelector('input[name="lname"]').value.trim();
 // 	alert(firstName+" "+secondName);
 // }
-
-  <script>
+  
     function getFormvalue(e) {
       e.preventDefault(); // Prevent page reload
 
@@ -19,4 +18,3 @@
 
       alert(`${firstName} ${lastName}`);
     }
-  </script>
