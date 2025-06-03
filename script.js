@@ -5,5 +5,5 @@ function getFormvalue() {
 	let firstName = form.elements['fname'].value;
 	let lastName = form.elements['lname'].value;
 
-	alert(${firstName} ${lastName})
+	alert(`${firstName} ${lastName}`);
 }
